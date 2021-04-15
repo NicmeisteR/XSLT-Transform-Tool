@@ -50,7 +50,7 @@ If you love this project please consider donating or support the development by 
 <summary><b>Windows</b></summary>
 <p>
 
-> dotnet publish -c Release
+> dotnet publish -c Release -r win-x64 --self-contained
 
 </p>
 </details>
@@ -64,7 +64,87 @@ If you love this project please consider donating or support the development by 
 
 </p>
 </details>
+<br/>
 
+<details>
+<summary><b>Other RIDs</b></summary>
+<p>
+
+<details>
+<summary><b>Windows</b></summary>
+<p>
+
+* Portable
+    * win-x64
+    * win-x86
+    * win-arm
+    * win-arm64
+
+* Windows 7 / Windows Server 2008 R2
+    * win7-x64
+    * win7-x86
+
+* Windows 8.1 / Windows Server 2012 R2
+    * win81-x64
+    * win81-x86
+    * win81-arm
+
+* Windows 10 / Windows Server 2016
+    * win10-x64
+    * win10-x86
+    * win10-arm
+    * win10-arm64
+
+</p>
+</details>
+
+<details>
+<summary><b>Linux</b></summary>
+<p>
+
+* Portable
+    * linux-x64 (Most desktop distributions like CentOS, Debian, Fedora, Ubuntu, and derivatives)
+    * linux-musl-x64 (Lightweight distributions using musl like Alpine Linux)
+    * linux-arm (Linux distributions running on ARM like Raspbian on Raspberry Pi Model 2+)
+    * linux-arm64 (Linux distributions running on 64-bit ARM like Ubuntu Server 64-bit on Raspberry Pi * Model 3+)
+* Red Hat Enterprise Linux
+    * rhel-x64 (Superseded by linux-x64 for RHEL above version 6)
+    * rhel.6-x64
+* Tizen
+    * tizen
+    * tizen.4.0.0
+    * tizen.5.0.0
+
+</p>
+</details>
+
+<details>
+<summary><b>Linux</b></summary>
+<p>
+
+* Portable
+    * osx-x64 (Minimum OS version is macOS 10.12 Sierra)
+* macOS 10.10 Yosemite
+    * osx.10.10-x64
+* macOS 10.11 El Capitan
+    * osx.10.11-x64
+* macOS 10.12 Sierra
+    * osx.10.12-x64
+* macOS 10.13 High Sierra
+    * osx.10.13-x64
+* macOS 10.14 Mojave
+    * osx.10.14-x64
+* macOS 10.15 Catalina
+    * osx.10.15-x64
+* macOS 11.01 Big Sur
+    * osx.11.0-x64
+    * osx.11.0-arm64
+
+</p>
+</details>
+
+</p>
+</details>
 
 
 
