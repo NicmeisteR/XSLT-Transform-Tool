@@ -119,7 +119,7 @@ If you love this project please consider donating or support the development by 
 </details>
 
 <details>
-<summary><b>Linux</b></summary>
+<summary><b>MacOS</b></summary>
 <p>
 
 * Portable
