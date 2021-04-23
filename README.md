@@ -39,7 +39,7 @@ If you love this project please consider donating or support the development by 
 * Open Finder 
 * Press Command+Shift+G
 * /usr/local/bin
-* Throw the exec ifs file in here.
+* Throw the exec transformTool file in here.
 
 </p>
 </details>
