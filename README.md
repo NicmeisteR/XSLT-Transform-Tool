@@ -40,6 +40,8 @@ If you love this project please consider donating or support the development by 
 * Press Command+Shift+G
 * /usr/local/bin
 * Throw the exec transformTool file in here.
+* In the terminal, run 
+    > chmod 777 ./transformTool
 
 </p>
 </details>
@@ -147,7 +149,8 @@ If you love this project please consider donating or support the development by 
 </details>
 
 
-
+# Single File Deployment (Reccomended)
+> dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true --self-contained true
 
 ## Author
 
